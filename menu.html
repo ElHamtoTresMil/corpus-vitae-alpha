@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Archivo de Ciclos</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to top, black, white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 60px;
+      padding: 40px;
+    }
+
+    .sphere {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: radial-gradient(circle at center, #ffffffaa, #000000);
+      box-shadow: 0 0 15px #fff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .sphere:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0 25px #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="sphere" onclick="selectSphere(1)"></div>
+    <div class="sphere" onclick="selectSphere(2)"></div>
+    <div class="sphere" onclick="selectSphere(3)"></div>
+    <div class="sphere" onclick="selectSphere(4)"></div>
+    <div class="sphere" onclick="selectSphere(5)"></div>
+    <div class="sphere" onclick="selectSphere(6)"></div>
+    <div class="sphere" onclick="selectSphere(7)"></div>
+    <div class="sphere" onclick="selectSphere(8)"></div>
+    <div class="sphere" onclick="selectSphere(9)"></div>
+    <div class="sphere" onclick="selectSphere(10)"></div>
+    <div class="sphere" onclick="selectSphere(11)"></div>
+    <div class="sphere" onclick="selectSphere(12)"></div>
+  </div>
+
+  <script>
+    function selectSphere(id) {
+      alert(`Has seleccionado la esfera #${id}`);
+      // Aquí podrías cargar el perfil correspondiente
+    }
+  </script>
+</body>
+</html>
+
+
