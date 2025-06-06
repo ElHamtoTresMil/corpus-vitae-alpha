@@ -1,0 +1,12 @@
+CORPUS VITAE ALPHA - VISIÓN INICIAL
+
+El juego comienza con jugadores en un entorno hostil, como humanos sin equipo.  
+Pueden explorar, minar materiales, construir centrales de energía y ensamblar sus propios mecas.
+
+A lo lejos, un serafín (o amenaza mayor) los observa mientras se aproxima.  
+La tensión crece con cada minuto, obligando a colaborar o morir.  
+El juego incluye modos PvP y PvE, y se expandirá progresivamente.
+
+Primera meta: crear una arena jugable con un solo enemigo.
+
+Carlos & Lumi
